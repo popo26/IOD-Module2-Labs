@@ -62,13 +62,59 @@
         position: relative;
       }
 
-      .position-sticky{
-        position:sticky;
+      /* Not sticking?? */
+      .position-sticky {
+        position: sticky;
       }
 
       /* IV. Styling text */
+      .text-style {
+        color: green;
+        font-size: larger;
+        line-height: 100px;
+        font-weight: 900;
+        font-family: "Handjet", cursive;
+        text-align: center;
+        letter-spacing: 10px;
+        word-spacing: 20px;
+        text-transform: capitalize;
+        text-decoration: line-through;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap");
+
+      /* V. Styling links */
+
+      a {
+        color: orange;
+        font-size: 40px;
+        font-weight: 900;
+        text-decoration: none;
+        border: 1px solid olivedrab;
+      }
+
+      a:hover {
+        background-color: blue;
+        color: white;
+      }
+
+      a:active {
+        color: red;
+      }
+
+      a:focus {
+        background-color: black;
+        color: white;
+      }
+
+      a:visited {
+        color: blueviolet;
+      }
 
       /* VI. calc() */
+      .calc-style {
+        width: calc(100vw-100px);
+      }
     </style>
   </head>
   <body>
